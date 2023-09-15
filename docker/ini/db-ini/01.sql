@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS test;
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'local';
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'%';
